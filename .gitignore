@@ -1,0 +1,41 @@
+# Ignorar carpeta con datos crudos
+data/raw/
+
+# Ignorar archivos y carpetas comunes de Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.env
+.env
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+#  Ignorar notebooks temporales
+*.ipynb_checkpoints
+
+#  Ignorar resultados y experimentos
+results/
+checkpoints/
+logs/
+
+# Ignorar archivos de pruebas
+*.pytest_cache/
+.cache/
